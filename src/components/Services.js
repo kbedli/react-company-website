@@ -1,5 +1,4 @@
 import React from "react";
-import { ServicesItem } from "./Services/ServicesItem";
 
 const Services = () => {
   const services = [
