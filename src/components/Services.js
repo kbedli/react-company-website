@@ -1,4 +1,5 @@
 import React from "react";
+import Box from "./Box";
 
 const Services = () => {
   const services = [
@@ -16,16 +17,8 @@ const Services = () => {
         <div className="divs-column">
           <h2>Czym zajmuje się nasza firma?</h2>
           <div className="boxes">
-            {services.map((service) => (
-              <div className={service.isNew ? "box box1" : "box"}>
-                {service.name}
-                {service.isNew ? (
-                  <>
-                    <span className="bottomtext"> (nowość)</span>
-                    <div className="dot"></div>
-                  </>
-                ) : null}
-              </div>
+            {services.map((service, index) => (
+              <Box service={service} key={index} />
             ))}
           </div>
         </div>

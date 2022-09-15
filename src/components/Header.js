@@ -13,9 +13,12 @@ const Header = () => {
             jakości produkty
           </h1>
           <p>Nie wierz nam na słowo - sprawdź</p>
-          <button type="button" className="btn">
-            oferta
-          </button>
+
+          <a href="#ouroffer">
+            <button type="button" className="btn">
+              oferta
+            </button>
+          </a>
         </div>
       </div>
     </>

@@ -11,7 +11,7 @@ const Employees = () => {
             <div className="picture firstpic">
               <img
                 src={require("../images/employee1.jpg")}
-                alt="employee's picture"
+                alt="first employee"
               />
             </div>
             <div className="text-about">
@@ -29,7 +29,7 @@ const Employees = () => {
             <div className="picture secondpic">
               <img
                 src={require("../images/employee2.jpg")}
-                alt="employee's picture"
+                alt="second employee"
               />
             </div>
             <div className="text-about">
